@@ -11,7 +11,7 @@ namespace WebApiServiceApplication.Controllers
     {
         private string[] sehirler = new string[] { "Ankara", "İstanbul", "Çorum" }; //string türünden array döndürelim
 
-        public string[] Get() //Eğer Parametre gönderilmemişse dizinin hepsini alır.
+        public string[] Get() //Eğer Parametre gönderilmemişse dizinin hepsini alır. 
         {
 
             //return ("Merhaba Wep Api");
