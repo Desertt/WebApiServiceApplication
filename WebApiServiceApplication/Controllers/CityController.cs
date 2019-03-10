@@ -23,7 +23,7 @@ namespace WebApiServiceApplication.Controllers
         }
         public string Get(int id) //parametre gönderildiği için string tipinde dizi içerisinde parametreye ait indis e karşılık gelen değeri gösterir.
         {
-            return sehirler[id];
+            return sehirler[id]; 
         }
 
     }

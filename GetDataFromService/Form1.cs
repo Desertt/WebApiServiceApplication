@@ -26,7 +26,7 @@ namespace GetDataFromService
             client.BaseAddress = new Uri("http://localhost:8091/");
             HttpResponseMessage response = await client.GetAsync("api/city"); //Burada Dizide Tanımlanmış kayıtlar getirilir.
             //HttpResponseMessage response = await client.GetAsync("api/city/2"); //Burada Dizide verilen indis numarasına göre kayıt getirilir.
-            string result = await response.Content.ReadAsStringAsync();
+            string result = await response.Content.ReadAsStringAsync(); 
             label1.Text = result;
         }
     }
