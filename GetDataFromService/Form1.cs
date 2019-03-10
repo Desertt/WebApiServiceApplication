@@ -22,7 +22,7 @@ namespace GetDataFromService
 
         private async void button1_Click(object sender, EventArgs e)
         {
-            var client = new HttpClient();
+            var client = new HttpClient(); 
             client.BaseAddress = new Uri("http://localhost:8091/");
             HttpResponseMessage response = await client.GetAsync("api/city"); //Burada Dizide Tanımlanmış kayıtlar getirilir.
             //HttpResponseMessage response = await client.GetAsync("api/city/2"); //Burada Dizide verilen indis numarasına göre kayıt getirilir.
