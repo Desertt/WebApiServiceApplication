@@ -10,7 +10,7 @@ namespace WebApiServiceApplication.Controllers
 {
 
     [EnableCors("*","*","*")] 
-    public class CityController : ApiController
+    public class CityController : ApiController  
     {
         private string[] sehirler = new string[] { "Ankara", "İstanbul", "Çorum" }; //string türünden array döndürelim
 

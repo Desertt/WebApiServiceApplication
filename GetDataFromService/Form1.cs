@@ -29,5 +29,5 @@ namespace GetDataFromService
             string result = await response.Content.ReadAsStringAsync(); 
             label1.Text = result; 
         }
-    }
+    } 
 }
